@@ -1,4 +1,11 @@
-import { useRef, useEffect, useState, useMemo, useId, type PointerEvent } from "react";
+import {
+  useRef,
+  useEffect,
+  useState,
+  useMemo,
+  useId,
+  type PointerEvent,
+} from "react";
 import "./CurvedLoop.css";
 
 type CurvedLoopProps = {
@@ -20,7 +27,9 @@ export default function CurvedLoop({
 }: CurvedLoopProps) {
   const text = useMemo(() => {
     const hasTrailing = /\s|\u00A0$/.test(marqueeText);
-    return (hasTrailing ? marqueeText.replace(/\s+$/, "") : marqueeText) + "\u00A0";
+    return (
+      (hasTrailing ? marqueeText.replace(/\s+$/, "") : marqueeText) + "\u00A0"
+    );
   }, [marqueeText]);
 
   const measureRef = useRef<SVGTextElement | null>(null);
@@ -117,7 +126,11 @@ export default function CurvedLoop({
     dirRef.current = velRef.current > 0 ? "right" : "left";
   };
 
-  const cursorStyle = interactive ? (dragRef.current ? "grabbing" : "grab") : "auto";
+  const cursorStyle = interactive
+    ? dragRef.current
+      ? "grabbing"
+      : "grab"
+    : "auto";
 
   return (
     <div
@@ -128,7 +141,11 @@ export default function CurvedLoop({
       onPointerUp={endDrag}
       onPointerLeave={endDrag}
     >
-      <svg className="curved-loop-svg" viewBox="0 0 1440 120" aria-hidden="true">
+      <svg
+        className="curved-loop-svg"
+        viewBox="0 0 1440 120"
+        aria-hidden="true"
+      >
         <text
           ref={measureRef}
           xmlSpace="preserve"
@@ -143,7 +160,11 @@ export default function CurvedLoop({
 
         {ready && (
           <text fontWeight="bold" xmlSpace="preserve" className={className}>
-            <textPath ref={textPathRef} href={`#${pathId}`} startOffset={`${offset}px`}>
+            <textPath
+              ref={textPathRef}
+              href={`#${pathId}`}
+              startOffset={`${offset}px`}
+            >
               {totalText}
             </textPath>
           </text>

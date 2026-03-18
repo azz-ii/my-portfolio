@@ -45,7 +45,8 @@
 }
 
 .eb-glow-1 {
-  border: var(--electric-border-thickness) solid oklch(from var(--electric-border-color) l c h / 0.6);
+  border: var(--electric-border-thickness) solid
+    oklch(from var(--electric-border-color) l c h / 0.6);
   filter: blur(1px);
 }
 
@@ -59,5 +60,10 @@
   transform: scale(1.04);
   filter: blur(28px);
   opacity: 0.25;
-  background: linear-gradient(-30deg, var(--electric-light-color), transparent, var(--electric-border-color));
+  background: linear-gradient(
+    -30deg,
+    var(--electric-light-color),
+    transparent,
+    var(--electric-border-color)
+  );
 }
