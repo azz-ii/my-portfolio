@@ -1,0 +1,24 @@
+.curved-loop-jacket {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.curved-loop-svg {
+  width: 100%;
+  aspect-ratio: 120 / 12;
+  overflow: visible;
+  display: block;
+  fill: #ffffff;
+  line-height: 1;
+}
+
+.contact-curved-title {
+  font-size: clamp(2rem, 5.5vw, 3.9rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: "Bodoni MT", "Didot", "Times New Roman", serif;
+}
