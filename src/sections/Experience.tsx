@@ -3,7 +3,7 @@ import { Briefcase, GraduationCap } from "lucide-react";
 import PixelTransition from "@/components/PixelTransition";
 
 interface TimelineItem {
-  type: "work" | "education";
+  type: "work" | "education" | "internship";
   title: string;
   organization: string;
   period: string;
@@ -28,26 +28,26 @@ const yearsFromPeriod = (period: string) => {
 const timeline: TimelineItem[] = [
   {
     type: "work",
-    title: "Senior Frontend Developer",
-    organization: "Tech Company Inc.",
-    period: "2023 - Present",
+    title: "---",
+    organization: "---",
+    period: "---",
     description:
-      "Leading frontend development of enterprise applications using React and TypeScript.",
+      "---",
   },
   {
-    type: "work",
-    title: "Full Stack Developer",
-    organization: "Startup XYZ",
-    period: "2021 - 2023",
+    type: "internship",
+    title: "Frontend Developer",
+    organization: "Oracle Petroleum Corporation",
+    period: "December 2025 - March 2026",
     description:
-      "Built and maintained full-stack features for SaaS platform with 10k+ users.",
+      "Internship focused on developing and maintaining web applications using React, Typescript, and Tailwind CSS. Contributed to the design and implementation of user interfaces, collaborated with cross-functional teams, and gained hands-on experience in frontend development best practices.",
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
+    title: "Bachelor of Science in Information Technology",
     organization: "Bulacan State University",
-    period: "2021 - 2025",
-    description: "Graduated with honors. Focus on Web Technologies.",
+    period: "2022 - 2026",
+    description: "Graduated with Cum Laude. Focus on Web Development.",
   },
 ];
 

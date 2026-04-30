@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import TextType from "@/components/TextType";
 import ProfileCard from "@/components/ProfileCard";
 import GlitchText from "@/components/GlitchText";
-import profileAzi from "@/assets/profile-azi.png";
+import profileAzi from "@/assets/profile-azi.jpg";
 
 export function Hero() {
   const scrollToSection = (id: string) => {

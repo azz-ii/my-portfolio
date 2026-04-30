@@ -14,34 +14,34 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "KST E-Commerce Platform",
+    title: "Cinema Booking System",
     description:
-      "A full-stack e-commerce solution with cart, payments, and admin dashboard.",
-    tech: ["React", "Typescript", "Tailwind CSS"],
+      "A user-friendly cinema booking system for seamless movie ticket reservations and seat selection.",
+    tech: ["Java Swing", "MySQL"],
     demo: "https://example.com",
-    github: "https://github.com/markusbautista/e-commerce",
+    github: "",
   },
   {
-    title: "InstaBite Food Ordering App",
+    title: "Student Fitness Managaement System",
     description:
-      "Online food ordering platform with menu browsing, cart management, and order tracking.",
-    tech: ["React", "Typescript", "Tailwind CSS"],
+      "A comprehensive fitness management platform for students to track their workouts, nutrition, and progress.",
+    tech: ["HTML, CSS", "Django"],
     demo: "https://example.com",
-    github: "https://github.com/azz-ii/instabite-food-ordering-app",
+    github: "https://github.com/Ma2na/StudentFitnessProfileSystem",
   },
   {
-    title: "Pharmacy Management System",
+    title: "Hapag: Online Catering System",
     description:
-      "Comprehensive pharmacy solution for inventory management, prescriptions, and sales tracking.",
+      "A user-friendly online catering system for seamless event planning and food ordering.",
     tech: ["React", "Typescript", "Tailwind CSS"],
     demo: "https://example.com",
-    github: "https://github.com/azz-ii/pharmacy-management-system",
+    github: "https://github.com/azz-ii/Online-Catering-System",
   },
   {
     title: "Gym Management System",
     description:
       "Complete gym management platform with membership tracking, scheduling, and payment processing.",
-    tech: ["React", "Typescript", "Tailwind CSS"],
+    tech: ["Laravel", "Bootstrap", "Vite"],
     demo: "https://example.com",
     github: "https://github.com/LexPaul14/Gym-Management-System",
   },
