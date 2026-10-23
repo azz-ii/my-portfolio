@@ -8,6 +8,7 @@ interface TimelineItem {
   organization: string;
   period: string;
   description: string;
+  durationLabel?: string;
 }
 
 const yearsFromPeriod = (period: string) => {
@@ -31,12 +32,13 @@ const timeline: TimelineItem[] = [
     title: "Customer Support Specialist",
     organization: "SMS Global Medical Solutions Inc.",
     period: "2026-Present",
+    durationLabel: "4 Months",
     description:
-      "Provided excellent customer support to clients, resolving their inquiries and issues in a timely and professional manner.",
+      "Customer support specialist in the medical field, assisting clients with systems provided by vendors and ensuring smooth communication, issue resolution, and service support.",
   },
   {
     type: "internship",
-    title: "Frontend Developer",
+    title: "Frontend Developer Intern",
     organization: "Oracle Petroleum Corporation",
     period: "December 2025 - March 2026",
     description:
@@ -123,7 +125,7 @@ export function Experience() {
                   <div className="experience-pixel-back">
                     <div>
                       <p className="experience-pixel-back__years">
-                        {yearsFromPeriod(item.period)}
+                        {item.durationLabel ?? yearsFromPeriod(item.period)}
                       </p>
                       <p className="experience-pixel-back__period">
                         {item.period}
