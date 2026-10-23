@@ -14,35 +14,27 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Cinema Booking System",
+    title: "House of Aeverine: Online Catering System",
     description:
-      "A user-friendly cinema booking system for seamless movie ticket reservations and seat selection.",
-    tech: ["Java Swing", "MySQL"],
-    demo: "https://example.com",
-    github: "",
-  },
-  {
-    title: "Student Fitness Managaement System",
-    description:
-      "A comprehensive fitness management platform for students to track their workouts, nutrition, and progress.",
+      "A comprehensive online catering system for seamless event planning and food ordering.",
     tech: ["HTML, CSS", "Django"],
-    demo: "https://example.com",
-    github: "https://github.com/Ma2na/StudentFitnessProfileSystem",
+    demo: "https://house-of-aeverine-catering.vercel.app/",
+    github: "https://github.com/azz-ii/House-of-Aeverine---Catering",
   },
   {
-    title: "Hapag: Online Catering System",
+    title: "Persoinal Funds Tracker",
     description:
-      "A user-friendly online catering system for seamless event planning and food ordering.",
+      "A user-friendly personal funds tracker for managing and monitoring financial transactions.",
     tech: ["React", "Typescript", "Tailwind CSS"],
-    demo: "https://example.com",
-    github: "https://github.com/azz-ii/Online-Catering-System",
+    demo: "https://personal-funds-tracker.vercel.app/login",
+    github: "https://github.com/azz-ii/Personal-Funds-Tracker",
   },
   {
     title: "Gym Management System",
     description:
       "Complete gym management platform with membership tracking, scheduling, and payment processing.",
     tech: ["Laravel", "Bootstrap", "Vite"],
-    demo: "https://example.com",
+    demo: "https://dxtremefitnessgym.com/",
     github: "https://github.com/LexPaul14/Gym-Management-System",
   },
 ];

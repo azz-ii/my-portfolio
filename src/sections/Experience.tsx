@@ -28,11 +28,11 @@ const yearsFromPeriod = (period: string) => {
 const timeline: TimelineItem[] = [
   {
     type: "work",
-    title: "---",
-    organization: "---",
-    period: "---",
+    title: "Customer Support Specialist",
+    organization: "SMS Global Medical Solutions Inc.",
+    period: "2026-Present",
     description:
-      "---",
+      "Provided excellent customer support to clients, resolving their inquiries and issues in a timely and professional manner.",
   },
   {
     type: "internship",
