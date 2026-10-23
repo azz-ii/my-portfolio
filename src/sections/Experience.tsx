@@ -31,7 +31,7 @@ const timeline: TimelineItem[] = [
     type: "work",
     title: "Customer Support Specialist",
     organization: "SMS Global Medical Solutions Inc.",
-    period: "2026-Present",
+    period: "2026 - Present",
     durationLabel: "4 Months",
     description:
       "Customer support specialist in the medical field, assisting clients with systems provided by vendors and ensuring smooth communication, issue resolution, and service support.",
