@@ -40,6 +40,7 @@ const timeline: TimelineItem[] = [
     type: "internship",
     title: "Frontend Developer Intern",
     organization: "Oracle Petroleum Corporation",
+    durationLabel: "3 Months",
     period: "December 2025 - March 2026",
     description:
       "Internship focused on developing and maintaining web applications using React, Typescript, and Tailwind CSS. Contributed to the design and implementation of user interfaces, collaborated with cross-functional teams, and gained hands-on experience in frontend development best practices.",
